@@ -1,0 +1,57 @@
+@media (max-width: 1025px) {
+    .skillListWrapper {
+        width: 100%;
+    }
+    .time {
+        padding: 4px 6px;
+        font-size: 0.8rem;
+    }
+    .price p {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 780px){
+    .header {
+        grid-column: auto;
+    }
+    
+    .skillListWrapper {
+        grid-template-columns: auto;
+    }
+    .txt h3 {
+        font-size: 1.5em;
+    }
+    
+    .txt p {font-size: 1rem;}
+    
+    .time {
+        padding: 5px 8px;
+        font-size: 1rem;
+    }
+    
+    .price p {
+        font-size: 1.5rem;
+    }
+    
+    .pricing {
+        width: 94%;
+        margin: 20px auto;
+    }
+}
+@media (max-width: 430px){
+    .txt h3 {
+        font-size: 1.1rem;
+    }
+    
+    .txt p {
+        font-size: 0.9rem;
+    }
+    
+    .price p {
+        font-size: 1.1rem;
+    }
+    
+    .time {
+        font-size: 0.8rem;
+    }
+}
